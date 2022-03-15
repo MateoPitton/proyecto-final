@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script defer src="js/app.js"></script>
+    <title>Ayuda</title>
+    <style>
+        .texto {
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="https://placekitten.com/200/200" alt="inicio"></a>
+        <p class="copy">copyright</p>
+        <nav>
+            <ul>
+                <li class="menu"><a href="../views/ayuda.html">Ayuda</a></li>
+                <li class="menu"><a href="../views/nosotros.html">Nosotros</a></li>
+                <li class="menu"><a href="../views/contacto.html">Contacto</a></li>
+                <li class="menu"><a href="../views/donadores.html">Donaciones</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section>
+        <table border="1" cellpadding=15>
+            <tr>
+                <td>Nombre</td>
+                <td>Raza</td>
+                <td>Edad</td>
+                <td>Sexo</td>
+                <td>Enfermedad</td>
+            </tr>
+            <tr>
+                <td>Ori</td>
+                <td>Gato</td>
+                <td>3 años</td>
+                <td>Macho</td>
+                <td>Parcialmente ciego</td>
+            </tr>
+        </table>
+        <br>
+    </section>
+        <img src="https://placekitten.com/200/200" alt="img">
+        <hr>
+        <section>
+        <table border="1" cellpadding=15 >
+            <form action="" method="">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre/Nombres" required><br><br>
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Apellido/Apellidos" required><br><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="correo electronico" required><br><br>
+                <label for="cantidad">cantidad a donar</label>
+                <input type="number" name="cantidad" id="cantidad" placeholder="cantidad" required><br><br>
+                <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Deje su comentario"></textarea><br><br>
+                <input type="button" value="enviar">
+                <input type="button" value="borrar">
+            </form>
+        </table>
+    </section>
+    </main>
+    <footer>
+        <h3>Centro de ayuda Medioambiental</h3>
+        <h4>redes sociales:</h4>
+        <a href="http://facebook.com">facebook</a><br>
+        <a href="http://twitter.com">twitter</a><br>
+            <a href="http://intragram.com">intagram</a>
+    </footer>
+</body>
+</html>

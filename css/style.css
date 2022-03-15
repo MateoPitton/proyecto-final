@@ -1,0 +1,131 @@
+.sectionFlex {
+  display: flex;
+  height: 50vh; }
+
+.articleFlex {
+  display: flex;
+  align-items: flex-start;
+  width: 50%; }
+
+#articleA {
+  width: 30%;
+  background-image: linear-gradient(black 30%, greenyellow);
+  color: azure; }
+
+.articleB {
+  background-image: linear-gradient(darkolivegreen 30%, greenyellow);
+  border-left: solid 1px black; }
+
+.copy {
+  position: relative;
+  border: solid black;
+  margin-bottom: 124px;
+  margin-top: 10px;
+  margin-left: 20px; }
+
+.menu {
+  display: inline-block;
+  width: 100px;
+  background-color: greenyellow;
+  padding: 20px 40px;
+  margin: 3px;
+  border: solid 3px black;
+  position: relative;
+  top: 10px;
+  left: 80vh;
+  border: solid 3px black;
+  font-size: 20px;
+  transition: 1s; }
+
+.menu:hover {
+  background-color: azure;
+  margin: 10px; }
+
+.carrusel {
+  width: 100%;
+  max-width: 120em;
+  background-color: white; }
+
+.carrusel .grande {
+  width: 200%;
+  background-color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  transition: all .5s ease;
+  transform: translateX(0%); }
+
+.carrusel .img {
+  width: calc(100%/2);
+  min-height: 10vh;
+  background-color: black; }
+
+.carrusel .puntos {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.carrusel .punto {
+  width: 20px;
+  height: 20px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: white;
+  margin: 10px; }
+
+.carrusel .punto.activo {
+  background-color: aqua; }
+
+#gridAreas {
+  display: grid;
+  grid-template-areas: "header" "main" "aside" "footer"; }
+
+header {
+  grid-area: header; }
+
+main {
+  grid-area: main; }
+
+footer {
+  grid-area: footer; }
+
+aside {
+  grid-area: aside; }
+
+body {
+  font-family: Monaco,Georgia,Times,serif; }
+
+* {
+  list-style: none;
+  margin: 0%;
+  padding: 0%; }
+
+img {
+  width: 100%;
+  border: black 5px;
+  background-color: black; }
+
+header {
+  background-image: linear-gradient(darkolivegreen, greenyellow);
+  display: flex;
+  align-items: flex-start;
+  justify-content: start; }
+
+footer {
+  background-image: linear-gradient(black 50%, darkolivegreen);
+  color: azure;
+  height: 50vh; }
+
+h3 {
+  background-color: darkolivegreen; }
+
+h2 {
+  background-color: darkolivegreen; }
+
+section {
+  background-image: radial-gradient(greenyellow, darkolivegreen); }
